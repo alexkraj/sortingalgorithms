@@ -6,7 +6,7 @@ I've needed a project that was computationally simple that allowed me to explore
 
 
 ## Structure
-At the moment, each algorithm is 
+At the moment, each algorithm is implemented in its own folder, along with an .sh script that runs and tests the algorithm. 
 
 ## Going forward
 - Choose a tool to do documentation for python

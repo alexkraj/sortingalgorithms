@@ -14,3 +14,4 @@ At the moment, each algorithm is
 - Choose a linter
 - Choose a test suite
 - Refactor existing code to work in a testing environment
+- Visualisation of the sorting algorithm?

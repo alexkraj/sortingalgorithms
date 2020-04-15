@@ -18,21 +18,25 @@ parser.add_argument(
 	default = [1,2,3]
 )
 
+def bogo_sort(A,B):
+	sorted = (A==B)
+	while(not sorted):
+		if (A==B):
+			break
+		random.shuffle(lst)
+
 # initialise the inputs
 args = parser.parse_args()
 lst = args.listA
 lst_sorted = args.listB
-sorted = (lst==lst_sorted)
 
-# time
+# time start
 start_time = time.time()
 
-# ACTUAL SORTING ALGORITHM
-while(not sorted):
-	if (lst==lst_sorted):
-		break
-	random.shuffle(lst)
+# perform sort
+bogo_sort(lst,lst_sorted)
 
+# time end
 end_time = time.time()
 
 print("This sort took %s seconds" %(end_time-start_time))
